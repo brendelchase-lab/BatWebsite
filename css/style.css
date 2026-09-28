@@ -1,49 +1,99 @@
+/* For style I went with a green theme overall. With a 
+grey background, so it is easy on the eyes.
+I think it works well with the bats, and I added the 
+flex boxes, to shrink downt the length of the website. This is
+because the list stretched out the website a lot
+so I added it to a box and put the image next to it
+I also added some borders so the boxes blended into the 
+theme better and didnt clash with the background color*/
 body {
     background-color: rgb(48, 45, 45);
     font-family: sans-serif;
-    color: white;
 }
-header {
-  background-color: darkgreen ;
-  text-align: center;
-}
-h1{
-    background-color: darkgreen ;
-    text-align: center;
-    
-}
-img {
-  width: 40%;
-  border-radius: 8px;
-  display: block;
-  margin: auto;
-}
+
+/* Main introduction */
 #MainText {
     background-color: rgb(10, 54, 1);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
 }
+
+/* Main page title */
 .OnPgTitle {
     color: white;
     font-size: 32px;
     text-align: center;
 }
+
+/* Subtitles */
 .SubTitle {
     color: rgb(201, 243, 186);
     font-size: 24px;
 }
+
+/* Paragraphs */
 .FirstPara {
     color: rgb(201, 243, 186);
     font-size: 18px;
     line-height: 1.6;
 }
-
-.SecoundPara {
+.Secoundpara{
     color: rgb(201, 243, 186);
     font-size: 18px;
     line-height: 1.6;
 }
+
+/* Two boxes */
+.FlexContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: stretch;
+}
+
+/* Individual boxes */
+.FlexBox {
+    flex: 1;
+    background-color: #e8f5e9;
+    padding: 20px;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+}
+
+/* Box headings */
+.ImgTitle {
+    color: darkgreen;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Ordered list */
+.List1 {
+    color: darkgreen;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Paragraph inside the boxes */
+.FlexBox p {
+    color: darkgreen;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Images, Still a bit unsure of how to work with image formatting, works great on page 2 but not so great on page 1, maybe has something to
+do with the amount of text above image1 */
+.FlexBox img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Button, I like the button at the bottom right, as if you are turning the page, had to google some farmatting stuff to figure it out,
+but it looks pretty great. Maybe an easirt way without finicking with the margins like the assignment said. */
 .button {
     background-color: #228b22;
     padding: 10px;
@@ -56,8 +106,4 @@ img {
 .button a {
     color: white;
     text-decoration: none;
-}
-
-.button:hover {
-    background-color: #006400;
 }
