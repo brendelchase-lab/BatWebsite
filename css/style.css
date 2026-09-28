@@ -18,3 +18,46 @@ img {
   display: block;
   margin: auto;
 }
+#MainText {
+    background-color: rgb(10, 54, 1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.OnPgTitle {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+.SubTitle {
+    color: rgb(201, 243, 186);
+    font-size: 24px;
+}
+.FirstPara {
+    color: rgb(201, 243, 186);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.SecoundPara {
+    color: rgb(201, 243, 186);
+    font-size: 18px;
+    line-height: 1.6;
+}
+.button {
+    background-color: #228b22;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: right;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #006400;
+}
