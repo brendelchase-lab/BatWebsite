@@ -1,62 +1,61 @@
 <html lang="en">
-    <head><link rel="stylesheet" href="./css/style.css" /></head>
-    <header> <!-- The header section -->
-        <title>Bats of Illinois</title> <!-- Sets the title -->
-    </header>
     <body> <!-- The body contains everything that is displayed on the webpage -->
-        <section id ="MainText"> <!-- Groups the main introductory content into one section -->
-            <h1 class="OnPgTitle">How many bats are in Illinois?</h1> <!-- Main heading of the webpage -->
+        <head><link rel="stylesheet" href="./css/style.css" /></head>
+        <header> <!-- The header section --><title>Bats of Illinois</title> <!-- Sets the title --></header>
+        <main>
+            <section id ="MainText"> <!-- Groups the main introductory content into one section -->
+                <h1 class="OnPgTitle">How many bats are in Illinois?</h1> <!-- Main heading of the webpage -->
 
-            <h2 class ="SubTitle"> There are 13 species of bats that live in Illinois</h2> <!-- A second-level heading that provides additional information -->
+                <h2 class ="SubTitle"> There are 13 species of bats that live in Illinois</h2> <!-- A second-level heading that provides additional information -->
 
-            <p class ="FirstPara"> <!-- Paragraph containing an introduction -->
+                <p class ="FirstPara"> <!-- Paragraph containing an introduction -->
                 Bats are integeral parts of our forest and prarie ecosystems, they are one of
                 my favorite animals. I got the chance to study them over the summer, so I'd like to share
                 my knowledge of Illinois bats.
-            </p>
+                </p>
 
-            <p class="SecoundPara"> <!-- Another paragraph explaining facts -->
-                There are many cool things about bats, such as they dont 
-                only use echolocation for navigating their surroundings. Many local 
-                bat species use echolocation calls socially, wether its to warn neigbors,
-                find mates or even to tell other species to stay away from a feeding location
+                <p class="SecoundPara"> <!-- Another paragraph explaining facts -->
+                    There are many cool things about bats, such as they dont 
+                    only use echolocation for navigating their surroundings. Many local 
+                    bat species use echolocation calls socially, wether its to warn neigbors,
+                    find mates or even to tell other species to stay away from a feeding location
+                </p>
+            </section> <!-- Closes the main section -->
+            <section>
+                <div class="FlexContainer"><!-- Box 1: List of bat species -->
+                    <div class="FlexBox">
+                        <h3 class = List1Title>The 13 species include</h3>
 
-            </p>
-        </section> <!-- Closes the main section -->
-        <div class="FlexContainer">
-            <!-- Box 1: List of bat species -->
-            <div class="FlexBox">
-                <h2 class = List1Title>The 13 species include</h2>
+                        <ul class="List1">
+                            <li>Big brown bat</li>
+                            <li>Eastern Red bat</li>
+                            <li>Hoary bat</li>
+                            <li>Silver-haired bat</li>
+                            <li>Tri-colored bat</li>
+                            <li>Evening bat</li>
+                            <li>Little brown bat</li>
+                            <li>Indiana bat</li>
+                            <li>Gray bat</li>
+                            <li>Northern long eared bat</li>
+                            <li>Southeastern bat</li>
+                            <li>Eastern small-footed bat</li>
+                            <li>Rafinesque's big-eared bat</li>
+                        </ul>
+                    </div>
 
-                <ul class="List1">
-                    <li>Big brown bat</li>
-                    <li>Eastern Red bat</li>
-                    <li>Hoary bat</li>
-                    <li>Silver-haired bat</li>
-                    <li>Tri-colored bat</li>
-                    <li>Evening bat</li>
-                    <li>Little brown bat</li>
-                    <li>Indiana bat</li>
-                    <li>Gray bat</li>
-                    <li>Northern long eared bat</li>
-                    <li>Southeastern bat</li>
-                    <li>Eastern small-footed bat</li>
-                    <li>Rafinesque's big-eared bat</li>
-                </ul>
-            </div>
+                    <!-- Box 2: Image title and image -->
+                    <div class="FlexBox">
+                        <h4 class="ImgTitle">
+                            Here's a picture of a big brown bat, one of my personal
+                            favorites and a very common species at the parks we studied at.
+                        </h4>
 
-            <!-- Box 2: Image title and image -->
-            <div class="FlexBox">
-                <h2 class="ImgTitle">
-                    Here's a picture of a big brown bat, one of my personal
-                    favorites and a very common species at the parks we studied at.
-                </h2>
+                        <img src="images/bigbrown.jpg" alt="Image of a Big brown bat" width="300">
+                    </div>
 
-                <img src="images/bigbrown.jpg" alt="Big brown bat" width="300">
-            </div>
-
-        </div>
-        
+                </div>
+            </section>
+        </main>
         <nav id="footer">
             <footer> <!-- Footer contains  links at the bottom of the webpage -->
                 <p class="button" >

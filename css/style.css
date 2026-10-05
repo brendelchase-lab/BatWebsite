@@ -107,3 +107,11 @@ but it looks pretty great. Maybe an easirt way without finicking with the margin
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    .FlexContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
